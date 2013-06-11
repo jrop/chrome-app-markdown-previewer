@@ -1,30 +1,22 @@
 {
     "name" : "Markdown Previewer",
-
     "description" : "Displays a preview of markdown files.",
-
     "version" : "0.1",
-
     "app" : {
         "background" : {
-            "scripts" : [ "background.js" ]
+            "scripts" : [ "js/background.js" ]
         }
     },
-    
     "manifest_version" : 2,
-    
     "minimum_chrome_version" : "27.0",
-    
     "file_handlers" : {
         "text" : {
             "types" : [ "*/*" ],
             "title" : "Markdown Previewer"
         }
     },
-    
     "permissions" : [ "fileSystem" ],
-    
     "icons" : {
-        "128" : "128.png"
+        "128" : "images/128.png"
     }
 }
